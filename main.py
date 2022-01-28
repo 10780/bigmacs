@@ -16,13 +16,13 @@ single = (patty + sauce + lettuce + cheese + pickles + onions + buns)
 #calculations
 total = (single * amount)
 
-patty_amt = int(2 * amount)
-sauce_amt = int(1 * amount)
-lettuce_amt = int(1 * amount)
-cheese_amt = int(1 * amount)
-pickles_amt = int(5 * amount)
-onions_amt = int(1 * amount)
-buns_amt = int(3 * amount)
+patty_amt = float(2 * amount)
+sauce_amt = float(1 * amount)
+lettuce_amt = float(1 * amount)
+cheese_amt = float(1 * amount)
+pickles_amt = float(5 * amount)
+onions_amt = float(1 * amount)
+buns_amt = float(3 * amount)
 
 #output
 print("To make ", amount, " Big Macs, you will need: \n")
